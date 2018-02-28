@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/vortex/box.xsd">
+    <import>
+        <box identifier="de.stomt_feedback">
+            <name language="de">Socialbox</name>
+            <name language="en">Socialbox</name>
+            <boxType>system</boxType>
+            <objectType>de.stomt_feedback.box</objectType>
+            <position>sidebarRight</position>
+            <showHeader>0</showHeader>
+            <visibleEverywhere>1</visibleEverywhere>
+
+            <content language="de">
+                <title>Socialbox</title>
+            </content>
+            <content language="en">
+                <title>Socialbox</title>
+            </content>
+        </box>
+    </import>
+</data>

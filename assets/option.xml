@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="stomt_feedback"></category>
+			<category name="stomt_feedback.general">
+				<parent>stomt_feedback</parent>
+			</category>			
+			<category name="stomt_feedback.networks">
+				<parent>stomt_feedback</parent>
+			</category>
+		</categories>
+		
+		<options>
+			<!--<option name="webexpanded_socialbox_external_target">
+				<categoryname>stomt_feedback.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>		-->
+			<option name="stomt_app_id">
+				<categoryname>stomt_feedback.networks</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue></defaultvalue>
+			</option>		
+			<option name="stomt_label">
+				<categoryname>stomt_feedback.networks</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>feedback</defaultvalue>
+			</option>	
+			<option name="stomt_position">
+				<categoryname>stomt_feedback.networks</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>right</defaultvalue>
+			</option>
+			
+			<option name="stomt_text_color">
+				<categoryname>stomt_feedback.networks</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>#FFFFFF</defaultvalue>
+			</option>	
+			<option name="stomt_hover_color">
+				<categoryname>stomt_feedback.networks</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>#04729E</defaultvalue>
+			</option>	
+			<option name="stomt_background_color">
+				<categoryname>stomt_feedback.networks</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>#0091C9</defaultvalue>
+			</option>	
+
+			
+			
+		</options>
+			
+		<delete>
+			<option name="webexpanded_socialbox_hitbox" />
+		</delete>
+	</import>
+</data>
