@@ -45,25 +45,5 @@
 		<instruction type="option">option.xml</instruction>
 	</instructions>
 
-	<instructions type="update" fromversion="1.0.2">
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
-		<instruction type="file">files.tar</instruction>
-		<instruction type="language">languages/*.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-	</instructions>
 
-	<instructions type="update" fromversion="1.0.3">
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="file">files.tar</instruction>
-		<instruction type="language">languages/*.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-	</instructions>
-
-	<instructions type="update" fromversion="1.0.3 pl 1">
-		<instruction type="template">templates.tar</instruction>
-		<instruction type="file">files.tar</instruction>
-		<instruction type="language">languages/*.xml</instruction>
-		<instruction type="option">option.xml</instruction>
-	</instructions>
 </package>
