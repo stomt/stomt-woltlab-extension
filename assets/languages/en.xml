@@ -7,7 +7,6 @@
 
 		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[General]]></item>	
 		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[configurations]]></item>		
-		<item name="wcf.acp.option.webexpanded_socialbox_external_target"><![CDATA[Position]]></item>
 		<item name="wcf.acp.option.stomt_app_id"><![CDATA[STOMT APP-ID]]></item>
 		<item name="wcf.acp.option.stomt_label"><![CDATA[Label]]></item>
 		<item name="wcf.acp.option.stomt_position"><![CDATA[Position]]></item>
