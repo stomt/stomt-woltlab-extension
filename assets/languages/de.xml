@@ -2,20 +2,17 @@
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="de">
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.module_stomt_feedback_active"><![CDATA[Stomt Feedback]]></item>		
-		<item name="wcf.acp.option.module_stomt_feedback_active.description"><![CDATA[Aktiviert die Anzeige der Stomt-Feedback]]></item>
-		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[Einstellungen]]></item>	
-		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[Netzwerke]]></item>			
+		<item name="wcf.acp.option.module_stomt_feedback_active.description"><![CDATA[Stomt-Feedback Button anzeigen]]></item>
+		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[Allgemein]]></item>	
+		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[Einstellungen]]></item>			
 		<item name="wcf.acp.option.category.stomt_feedback"><![CDATA[STOMT-FEEDBACK]]></item>
-		<item name="wcf.acp.option.stomt_enable"><![CDATA[enable]]></item>
+		<item name="wcf.acp.option.stomt_enable"><![CDATA[aktivieren]]></item>
 		<item name="wcf.acp.option.stomt_app_id"><![CDATA[STOMT APP-ID]]></item>
-		<item name="wcf.acp.option.stomt_label"><![CDATA[Label]]></item>
+		<item name="wcf.acp.option.stomt_label"><![CDATA[Text]]></item>
 		<item name="wcf.acp.option.stomt_position"><![CDATA[Position]]></item>
-		<item name="wcf.acp.option.stomt_text_color"><![CDATA[ColorText]]></item>
-		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[ColorHover]]></item>		
-		<item name="wcf.acp.option.stomt_background_color"><![CDATA[ColorBackground]]></item>
-
-
-
+		<item name="wcf.acp.option.stomt_text_color"><![CDATA[Textfarbe]]></item>
+		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[Hintergrundfarbe (hover)]]></item>		
+		<item name="wcf.acp.option.stomt_background_color"><![CDATA[Hintergrundfarbe]]></item>
 	</category>
 	<category name="wcf.page">
 		<item name="wcf.page.stomt_feedback.copyright"><![CDATA[Stomt Feedback, entwickelt von STOMT]]></item>
