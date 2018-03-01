@@ -49,7 +49,7 @@ The parameters can be configured in the admin-panel to initialize the widget.
 ```html
 <div id="stomt_create"></div>
 ```
-1- Go to Boxes,ADD Box.
+1- Go to Boxes,ADD Box ,choose HTML and Next
 
 2-add the details of the box (position,visibility,access..)
 
@@ -65,13 +65,13 @@ The parameters can be configured in the admin-panel to initialize the widget.
 ```html
 <div id="stomt_feed"></div>
 ```
-1- Go to Boxes,ADD Box.
+1- Go to Boxes,ADD Box ,choose HTML and Next
 
 2-add the details of the box (position,visibility,access..)
 
 3-in contents paste the code below
 
-3-add save
+4-add save
 
 ## Frequently Asked Questions
 
