@@ -44,7 +44,7 @@ The parameters can be configured in the admin-panel to initialize the widget.
 
 ## Documentation Feed
 ### Create feed:
-<img alt="Easy Integration" align="right" width="400" src="screenshots/feed_create.png"/>
+<img alt="Easy Integration" align="right" width="400" src="screenshots/feed_create.PNG"/>
 
 ```html
 <div id="stomt_create"></div>
