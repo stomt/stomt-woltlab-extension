@@ -8,7 +8,7 @@ integrate the plugin https://pluginstore.woltlab.com/file/1657-color-option-type
 
 ## Installation
 
-1. Download the [Tar] project(https://github.com/stomt/stomt-Woltlab-extension/archive/de.stomt.feedback.tar.gz).
+1. Download the [Tar project](https://github.com/stomt/stomt-Woltlab-extension/archive/de.stomt.feedback.tar.gz).
 
 2. Open the Woltlab administrator page, choose "packages" and then "install package".
 
