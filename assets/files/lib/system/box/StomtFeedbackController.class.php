@@ -3,8 +3,8 @@ namespace wcf\system\box;
 use wcf\system\WCF;
 
 /**
- * @author	Kevin Härtling
- * @copyright	2017 WebExpanded, Kevin Härtling
+ * @author	Stomt Gmbh
+ * @copyright	2018 Stomt-Feedback,Stomt Gmbh
  * @package de.stomt.feedback
  */
 class StomtFeedbackController extends AbstractBoxController {
