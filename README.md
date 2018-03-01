@@ -43,6 +43,35 @@ The parameters can be configured in the admin-panel to initialize the widget.
 <img alt="Easy Integration" width="400" src="screenshots/user_interface.png"/>
 
 ## Documentation Feed
+### Create feed:
+<img alt="Easy Integration" align="right" width="400" src="screenshots/feed_create.png"/>
+
+```html
+<div id="stomt_create"></div>
+```
+1- Go to Boxes,ADD Box.
+
+2-add the details of the box (position,visibility,access..)
+
+3-in contents paste the code below
+
+4-add save
+
+
+
+### integrate feed:
+<img alt="Easy Integration" align="right" width="400" src="assets/feed_integration.png"/>
+
+```html
+<div id="stomt_feed"></div>
+```
+1- Go to Boxes,ADD Box.
+
+2-add the details of the box (position,visibility,access..)
+
+3-in contents paste the code below
+
+3-add save
 
 ## Frequently Asked Questions
 
