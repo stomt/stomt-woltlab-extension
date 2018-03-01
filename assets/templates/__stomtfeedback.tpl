@@ -1,5 +1,5 @@
 
-  {if STOMT_APP_ID|strlen > 0}
+  {if STOMT_APP_ID|strlen > 0  &&   STOMT_ENABLE==1}
 <script>
 
 

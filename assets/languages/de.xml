@@ -6,7 +6,7 @@
 		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[Einstellungen]]></item>	
 		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[Netzwerke]]></item>			
 		<item name="wcf.acp.option.category.stomt_feedback"><![CDATA[STOMT-FEEDBACK]]></item>
-	
+		<item name="wcf.acp.option.stomt_enable"><![CDATA[enable]]></item>
 		<item name="wcf.acp.option.stomt_app_id"><![CDATA[STOMT APP-ID]]></item>
 		<item name="wcf.acp.option.stomt_label"><![CDATA[Label]]></item>
 		<item name="wcf.acp.option.stomt_position"><![CDATA[Position]]></item>

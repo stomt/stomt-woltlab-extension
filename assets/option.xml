@@ -12,11 +12,12 @@
 		</categories>
 		
 		<options>
-			<!--<option name="webexpanded_socialbox_external_target">
-				<categoryname>stomt_feedback.general</categoryname>
+			<option name="stomt_enable">
+				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>1</defaultvalue>
-			</option>		-->
+			</option>	
+
 			<option name="stomt_app_id">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
