@@ -35,9 +35,9 @@ The parameters can be configured in the admin-panel to initialize the widget.
 
 ### Admin-panel / User interface:
 
-<img alt="Easy Integration" width="400" src="screenshots/admin-panel.png"/>
+<img alt="Easy Integration" width="400" src="screenshots/admin_panel.png"/>
 
-<img alt="Easy Integration" width="400" src="screenshots/user-interface.png"/>
+<img alt="Easy Integration" width="400" src="screenshots/user_interface.png"/>
 
 ## Documentation Feed
 
