@@ -2,6 +2,9 @@
 STOMT Woltlab Integration https://www.stomt.com
 How to integrate STOMT on your Woltlab website?
 
+##requirement
+
+integrate the plugin https://pluginstore.woltlab.com/file/1657-color-option-type/ into your project
 
 ## Installation
 
