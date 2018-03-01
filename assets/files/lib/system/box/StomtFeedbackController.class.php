@@ -5,7 +5,11 @@ use wcf\system\WCF;
 /**
  * @author	Stomt Gmbh
  * @copyright	2018 Stomt-Feedback,Stomt Gmbh
+ * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
+ * @subpackage	system.box
  * @package de.stomt.feedback
+ * @category	Community Framework
+
  */
 class StomtFeedbackController extends AbstractBoxController {
     /**
