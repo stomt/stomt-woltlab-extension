@@ -60,7 +60,7 @@ The parameters can be configured in the admin-panel to initialize the widget.
 
 
 ### integrate feed:
-<img alt="Easy Integration" align="right" width="400" src="screenshots/feed_integration.png"/>
+<img alt="Easy Integration" align="right" width="400" src="screenshots/feed_integration.PNG"/>
 
 ```html
 <div id="stomt_feed"></div>
