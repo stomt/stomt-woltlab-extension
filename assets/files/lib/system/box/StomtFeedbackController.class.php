@@ -3,8 +3,8 @@ namespace wcf\system\box;
 use wcf\system\WCF;
 
 /**
- * @author	Stomt Gmbh
- * @copyright	2018 Stomt-Feedback,Stomt Gmbh
+ * @author	STOMT Gmbh
+ * @copyright	2018 Stomt-Feedback,STOMT Gmbh
  * @license	GNU Lesser General Public License <http://opensource.org/licenses/lgpl-license.php>
  * @subpackage	system.box
  * @package de.stomt.feedback
