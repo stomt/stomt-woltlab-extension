@@ -58,9 +58,6 @@
 			
 			
 		</options>
-			
-		<delete>
-			<option name="webexpanded_socialbox_hitbox" />
-		</delete>
+		
 	</import>
 </data>
