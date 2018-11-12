@@ -9,7 +9,7 @@
 		<packagedescription languagecode="de">STOMT macht ein einfach direktes Feedback zu sammeln. Diese Plugin bindet den STOMT Feedback Button ein.
 
 		Die Installation ist einfach und dauert nur Sekunden.</packagedescription>
-		<version>1.1.0</version>
+		<version>1.2.0</version>
 		<date>2018-02-28</date>
 	</packageinformation>
 	
@@ -37,11 +37,16 @@
 
 	<instructions type="update" fromversion="1.0.0">
 		<instruction type="template">templates.tar</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
 		<instruction type="file">files.tar</instruction>
 		<instruction type="language">languages/*.xml</instruction>
 		<instruction type="option">option.xml</instruction>
 	</instructions>
 
+	<instructions type="update" fromversion="1.1.0">
+		<instruction type="template">templates.tar</instruction>
+		<instruction type="file">files.tar</instruction>
+		<instruction type="language">languages/*.xml</instruction>
+		<instruction type="option">option.xml</instruction>
+	</instructions>
 
 </package>
