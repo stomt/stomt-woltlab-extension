@@ -3,21 +3,18 @@
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.module_stomt_feedback_active"><![CDATA[Stomt Feedback]]></item>		
 		<item name="wcf.acp.option.module_stomt_feedback_active.description"><![CDATA[Stomt-Feedback Button anzeigen]]></item>
-		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[Allgemein]]></item>	
-		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[Einstellungen]]></item>			
+		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[Allgemein]]></item>
+		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[Einstellungen]]></item>
 		<item name="wcf.acp.option.category.stomt_feedback"><![CDATA[STOMT-FEEDBACK]]></item>
 		<item name="wcf.acp.option.stomt_enable"><![CDATA[Aktivieren]]></item>
 		<item name="wcf.acp.option.stomt_preload"><![CDATA[Vorladen]]></item>
 		<item name="wcf.acp.option.stomt_app_id"><![CDATA[STOMT APP-ID (www.stomt.com/go/apps)]]></item>
-		<item name="wcf.acp.option.stomt_label"><![CDATA[Text]]></item>
-		<item name="wcf.acp.option.stomt_position"><![CDATA[Position]]></item>
+		<item name="wcf.acp.option.stomt_label"><![CDATA[Button Text]]></item>
+		<item name="wcf.acp.option.stomt_position"><![CDATA[Button Position (right, left)]]></item>
 		<item name="wcf.acp.option.stomt_text_color"><![CDATA[Textfarbe]]></item>
-		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[Hintergrundfarbe (hover)]]></item>
 		<item name="wcf.acp.option.stomt_background_color"><![CDATA[Hintergrundfarbe]]></item>
+		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[Hintergrundfarbe (aktiv)]]></item>
 		<item name="wcf.acp.option.stomt_language_restriction"><![CDATA[Auf Sprachen beschränken (z.B. 'en, de')]]></item>
-	</category>
-	<category name="wcf.page">
-		<item name="wcf.page.stomt_feedback.copyright"><![CDATA[Stomt Feedback, entwickelt von STOMT]]></item>
 	</category>
 	<category name="wcf.acp.box">
 		<item name="wcf.acp.box.boxController.de.stomt_feedback.box"><![CDATA[Stomt Feedback]]></item>

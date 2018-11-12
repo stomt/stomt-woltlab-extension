@@ -3,9 +3,12 @@
 	<packageinformation>
 		<packagename>STOMT FEEDBACK</packagename>
 		<packagedescription>Add a feedback Box</packagedescription>
-		<packagedescription languagecode="de">STOMT makes it easy for anyone to provide instant feedback. This plugin allows you to customize the STOMT feedback button and add it to your wordpress site.
+		<packagedescription languagecode="en">STOMT makes it easy for anyone to provide instant feedback. This plugin allows you to customize the STOMT feedback button and add it to your site.
 
 		Installation is simple and only takes seconds.</packagedescription>
+		<packagedescription languagecode="de">STOMT macht ein einfach direktes Feedback zu sammeln. Diese Plugin bindet den STOMT Feedback Button ein.
+
+		Die Installation ist einfach und dauert nur Sekunden.</packagedescription>
 		<version>1.1.0</version>
 		<date>2018-02-28</date>
 	</packageinformation>
@@ -19,10 +22,6 @@
 		<requiredpackage minversion="3.0.0">com.woltlab.wcf</requiredpackage>
 	</requiredpackages>
 
-	<excludedpackages>
-		<excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-	</excludedpackages>
-
 	<compatibility>
 		<api version="2018" />
 	</compatibility>
@@ -34,7 +33,6 @@
 		<instruction type="language">languages/*.xml</instruction>
 		<instruction type="objectType">objectType.xml</instruction>
 		<instruction type="box">box.xml</instruction>
-		<instruction type="templateListener">templateListener.xml</instruction>
 	</instructions>
 
 	<instructions type="update" fromversion="1.0.0">

@@ -19,6 +19,7 @@ if (languageAllowed) {
     colorText: '{STOMT_TEXT_COLOR}',
     colorHover: '{STOMT_HOVER_COLOR}',
     colorBackground: '{STOMT_BACKGROUND_COLOR}',
+    lang: userLanguageCode,
     preload: !!{STOMT_PRELOAD},
     showClose: true
   };

@@ -5,64 +5,58 @@
 			<category name="stomt_feedback"></category>
 			<category name="stomt_feedback.general">
 				<parent>stomt_feedback</parent>
-			</category>			
+			</category>
 			<category name="stomt_feedback.networks">
 				<parent>stomt_feedback</parent>
 			</category>
 		</categories>
-		
+
 		<options>
 			<option name="stomt_enable">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>1</defaultvalue>
-			</option>	
-	
-
+			</option>
 			<option name="stomt_app_id">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
-			</option>		
+			</option>
 			<option name="stomt_label">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>Feedback</defaultvalue>
-			</option>	
+			</option>
 			<option name="stomt_position">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>right</defaultvalue>
 			</option>
-			
 			<option name="stomt_text_color">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>#FFFFFF</defaultvalue>
-			</option>	
+			</option>
 			<option name="stomt_background_color">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>#0091C9</defaultvalue>
-			</option>		
+			</option>
 			<option name="stomt_hover_color">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue>#04729E</defaultvalue>
-			</option>	
+			</option>
 			<option name="stomt_language_restriction">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>text</optiontype>
 				<defaultvalue></defaultvalue>
-			</option>	
+			</option>
 			<option name="stomt_preload">
 				<categoryname>stomt_feedback.networks</categoryname>
 				<optiontype>boolean</optiontype>
 				<defaultvalue>1</defaultvalue>
 			</option>
-			
-			
 		</options>
-		
 	</import>
 </data>
