@@ -1,5 +1,4 @@
-# stomt-Woltlab-extension
-STOMT Woltlab Integration https://www.stomt.com
+# STOMT Woltlab Extension
 
 How to integrate STOMT on your Woltlab website?
 
@@ -16,7 +15,7 @@ You can easily search and install the STOMT WoltLab plugin via the [WoltLab Pack
 
 ## Manuell Installation
 
-Alternativly you can install the package directly from its source.
+Alternatively you can install the package directly from its source.
 
 1. Download [de.stomt.feedback.tar.gz](https://github.com/stomt/stomt-woltlab-extension/raw/master/de.stomt.feedback.tar.gz).
 
@@ -33,13 +32,13 @@ The parameters can be configured in the admin-panel to initialize the widget.
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
-| `STOMT APP-ID` _(required)_ | String | The `appId` is your pages application id. You can find it in your application overview in STOMT (https://www.stomt.com/YOUR_PAGE/apps). The target connected to this application id will be used as target. |
+| `STOMT APP-ID` _(required)_ | String | The `appId` is your pages application id. You can find it in your [application overview](https://www.stomt.com/go/apps) in STOMT. The target connected to this application id will be used as target. |
 | `Button Position` | String | You can set the `Button Position` of the button, the default position is `right`. If required you can align the button to the left side by passing `'left'`. |
 | `Button Text` | String | The default label of the button is `Feedback`, you can change that by passing another `label`. |
 | `Text Color` | String | To change the colors used for the widget button you have three options to configure. The first one is `Text Color`, it allows you to change the text color (default: `#FFFFFF`). |
 | `Background Color` | String | The `Background Color` option allows you to change the background color of the button (default: `#0091C9`). |
 | `Background Color (hover)` | String | The `Background Color (hover)` option allows you to change the background color of the button when the user hovers it (default: `#04729E`). |
-| `Restrict to specifc languages` | String | Use this option if you want limit the usage of STOMT to specifc language based user groups. Enter a comma separated list of language codes (eg. 'de, en'). |
+| `Restrict to specific languages` | String | Use this option if you want limit the usage of STOMT to specifc language based user groups. Enter a comma separated list of language codes (eg. 'de, en'). |
 | `Preload` | Boolean | By setting the property `preload` to `true`, you can tell the Widget to preload the Tab iframe in the background (default: `false`). This reduces the loading delay when showing the Tab for the first time. |
 
 

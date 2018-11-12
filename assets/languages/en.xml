@@ -14,7 +14,7 @@
 		<item name="wcf.acp.option.stomt_text_color"><![CDATA[Text Color]]></item>
 		<item name="wcf.acp.option.stomt_background_color"><![CDATA[Background Color]]></item>
 		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[Background Color (hover)]]></item>
-		<item name="wcf.acp.option.stomt_language_restriction"><![CDATA[Restrict to specifc languages (e.g. 'en, de')]]></item>
+		<item name="wcf.acp.option.stomt_language_restriction"><![CDATA[Restrict to specific languages (e.g. 'en, de')]]></item>
 	</category>
 	<category name="wcf.acp.box">
 		<item name="wcf.acp.box.boxController.de.stomt_feedback.box"><![CDATA[Stomt Feedback]]></item>
