@@ -23,13 +23,14 @@ The parameters can be configured in the admin-panel to initialize the widget.
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
-| `appId` _(required)_ | String | The `appId` is your pages application id. You can find it in your application overview in STOMT (https://www.stomt.com/YOUR_PAGE/apps). The target connected to this application id will be used as target. |
-| `position` | String | You can set the `position` of the button, the default position is `right`. If required you can align the button to the left side by passing `position: 'left'`. |
-| `label` | String | The default label of the button is `Feedback`, you can change that by passing another `label`. |
-| `colorText` | String | To change the colors used for the widget button you have three options to configure. The first one is `colorText`, it allows you to change the text color (default: `#FFFFFF`). |
-| `colorBackground` | String | The `colorBackground` option allows you to change the background color of the button (default: `#0091C9`). |
-| `colorHover` | String | The `colorHover` option allows you to change the background color of the button when the user hovers it (default: `#04729E`). |
-| `preload` | Boolean | By setting the property `preload` to `true`, you can tell the Widget to preload the Tab iframe in the background (default: `false`). This reduces the loading delay when showing the Tab for the first time. |
+| `STOMT APP-ID` _(required)_ | String | The `appId` is your pages application id. You can find it in your application overview in STOMT (https://www.stomt.com/YOUR_PAGE/apps). The target connected to this application id will be used as target. |
+| `Button Position` | String | You can set the `Button Position` of the button, the default position is `right`. If required you can align the button to the left side by passing `'left'`. |
+| `Button Text` | String | The default label of the button is `Feedback`, you can change that by passing another `label`. |
+| `Text Color` | String | To change the colors used for the widget button you have three options to configure. The first one is `Text Color`, it allows you to change the text color (default: `#FFFFFF`). |
+| `Background Color` | String | The `Background Color` option allows you to change the background color of the button (default: `#0091C9`). |
+| `Background Color (hover)` | String | The `Background Color (hover)` option allows you to change the background color of the button when the user hovers it (default: `#04729E`). |
+| `Restrict to specifc languages` | String | Use this option if you want limit the usage of STOMT to specifc language based user groups. Enter a comma separated list of language codes (eg. 'de, en'). |
+| `Preload` | Boolean | By setting the property `preload` to `true`, you can tell the Widget to preload the Tab iframe in the background (default: `false`). This reduces the loading delay when showing the Tab for the first time. |
 
 
 ## Example UI
@@ -85,6 +86,11 @@ STOMT lets you instantly give feedback in a predefined format. Head off to https
 [Max Klenk](https://github.com/maxklenk) | [Follow Max Klenk on STOMT](https://www.stomt.com/max-klenk)
 
 See also the list of [contributors](https://github.com/stomt/stomt-joomla-extension/contributors) who participated in this project.
+
+
+## Development
+
+Use [WoltLab Demo](https://www.woltlab.com/demo/) to start a server with the most current version of WoltLab Suite. The `build.sh` script allows you to pack a new version of the package, which can then be uploaded to your WoltLab instance.
 
 
 ## More about STOMT
