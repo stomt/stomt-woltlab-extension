@@ -3,18 +3,28 @@ STOMT Woltlab Integration https://www.stomt.com
 
 How to integrate STOMT on your Woltlab website?
 
-
 ## Installation
 
-1. Download the [Tar project](https://github.com/stomt/stomt-Woltlab-extension/archive/de.stomt.feedback.tar.gz).
+You can easily search and install the STOMT WoltLab plugin via the [WoltLab Package Manager](https://pluginstore.woltlab.com/file/2810-stomt-feedback/).
 
-2. Open the Woltlab administrator page, choose "packages" and then "install package".
+1. Open the Woltlab administrator page, choose "Packages" and then "Install Package".
 
-3. Upload the de.stomt.feedback.tar.gz
+2. Search for "STOMT Feedback" and install the plugin.
 
-4. a new item will appear in the left bar of plugins "STOMT-FEEDBACK".
+3. A new item will appear in the left navigation bar "STOMT-FEEDBACK". Select it, add your [APP-ID](https://www.stomt.com/go/apps) on the configuration page. Make sure you save your changes.
 
-5. click on it, add your AppId in Options and save everything.
+
+## Manuell Installation
+
+Alternativly you can install the package directly from its source.
+
+1. Download [de.stomt.feedback.tar.gz](https://github.com/stomt/stomt-woltlab-extension/raw/master/de.stomt.feedback.tar.gz).
+
+2. Open the Woltlab administrator page, choose "Packages" and then "Install Package".
+
+3. Upload `de.stomt.feedback.tar.gz` in the "Upload Package" tab.
+
+4. A new item will appear in the left navigation bar "STOMT-FEEDBACK". Select it, add your [APP-ID](https://www.stomt.com/go/apps) on the configuration page. Make sure you save your changes.
 
 
 ### Configuration
@@ -42,35 +52,40 @@ The parameters can be configured in the admin-panel to initialize the widget.
 <img alt="Easy Integration" width="400" src="screenshots/user_interface.png"/>
 
 ## Documentation Feed
-### Create feed:
+
+### Embedded Creation Form
+
 <img alt="Easy Integration" align="right" width="400" src="screenshots/feed_create.PNG"/>
+
+1. Go to Content -> Boxes, click "ADD BOX" and choose "HTML" and click "Next".
+
+2. Add the details of the box (position, visibility, access, ...).
+
+3. Insert the following in the "Contents" tab:
 
 ```html
 <div id="stomt_create"></div>
 ```
-1- Go to Boxes,ADD Box ,choose HTML and Next
 
-2-add the details of the box (position,visibility,access..)
-
-3-in contents paste the code below
-
-4-add save
+4. Click "SUBMIT"
 
 
+### Embedded Feed
 
-### integrate feed:
 <img alt="Easy Integration" align="right" width="400" src="screenshots/feed_integration.PNG"/>
+
+1. Go to Content -> Boxes, click "ADD BOX" and choose "HTML" and click "Next".
+
+2. Add the details of the box (position, visibility, access, ...).
+
+3. Insert the following in the "Contents" tab:
 
 ```html
 <div id="stomt_feed"></div>
 ```
-1- Go to Boxes,ADD Box ,choose HTML and Next
 
-2-add the details of the box (position,visibility,access..)
+4. Click "SUBMIT"
 
-3-in contents paste the code below
-
-4-add save
 
 ## Frequently Asked Questions
 
