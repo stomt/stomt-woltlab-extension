@@ -6,16 +6,16 @@
 		<item name="wcf.acp.option.category.stomt_feedback"><![CDATA[STOMT-FEEDBACK]]></item>
 
 		<item name="wcf.acp.option.category.stomt_feedback.general"><![CDATA[General]]></item>	
-		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[configurations]]></item>		
+		<item name="wcf.acp.option.category.stomt_feedback.networks"><![CDATA[Configuration]]></item>		
 		<item name="wcf.acp.option.stomt_enable"><![CDATA[Enable]]></item>
 		<item name="wcf.acp.option.stomt_preload"><![CDATA[Preload]]></item>
-		<item name="wcf.acp.option.stomt_app_id"><![CDATA[STOMT APP-ID]]></item>
-		<item name="wcf.acp.option.stomt_label"><![CDATA[Label]]></item>
-		<item name="wcf.acp.option.stomt_position"><![CDATA[Position]]></item>
-		<item name="wcf.acp.option.stomt_text_color"><![CDATA[ColorText]]></item>
-		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[ColorHover]]></item>		
-		<item name="wcf.acp.option.stomt_background_color"><![CDATA[ColorBackground]]></item>
-		
+		<item name="wcf.acp.option.stomt_app_id"><![CDATA[STOMT APP-ID (www.stomt.com/go/apps)]]></item>
+		<item name="wcf.acp.option.stomt_label"><![CDATA[Button Text]]></item>
+		<item name="wcf.acp.option.stomt_position"><![CDATA[Button Position]]></item>
+		<item name="wcf.acp.option.stomt_text_color"><![CDATA[Text Color]]></item>
+		<item name="wcf.acp.option.stomt_background_color"><![CDATA[Background Color]]></item>
+		<item name="wcf.acp.option.stomt_hover_color"><![CDATA[Background Color on hover]]></item>
+		<item name="wcf.acp.option.stomt_language_restriction"><![CDATA[Restrict to specifc languages (e.g. 'en, de')]]></item>
 	</category>
 	<category name="wcf.page">
 		<item name="wcf.page.stomt_feedback.copyright"><![CDATA[Stomt Feedback, developed by STOMT]]></item>

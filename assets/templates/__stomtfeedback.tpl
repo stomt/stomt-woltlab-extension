@@ -1,19 +1,28 @@
 
-  {if STOMT_APP_ID|strlen > 0  &&   STOMT_ENABLE==1}
+  {if STOMT_ENABLE==1}
 <script>
 
+// check user language
+var languageRestrictionString = '{STOMT_LANGUAGE_RESTRICTION}';
+var languageRestrictions = languageRestrictionString.split(',').map(function(item) {
+  return item.trim();
+});
+var userLanguageCode = '{$__wcf->getLanguage()->languageCode}';
+var languageAllowed = (languageRestrictions.length === 1 && languageRestrictions[0] === '')
+                      ||  languageRestrictions.indexOf(userLanguageCode) !== -1;
 
-var options = {
-   appId: '{STOMT_APP_ID}',
-  position: '{STOMT_POSITION}', 
-  label: '{STOMT_LABEL}', 
-  colorText: '{STOMT_TEXT_COLOR}', 
-  colorHover: '{STOMT_HOVER_COLOR}', 
-  colorBackground: '{STOMT_BACKGROUND_COLOR}',
-  preload:'{STOMT_PRELOAD}',
-  showClose: true
-};
-(function(w, d, n, r, t, s){
+if (languageAllowed) {
+  var options = {
+     appId: '{STOMT_APP_ID}' || 'AfRaltKwqi39T8nSXdzPsmCtx',
+    position: '{STOMT_POSITION}',
+    label: '{STOMT_LABEL}',
+    colorText: '{STOMT_TEXT_COLOR}',
+    colorHover: '{STOMT_HOVER_COLOR}',
+    colorBackground: '{STOMT_BACKGROUND_COLOR}',
+    preload: !!{STOMT_PRELOAD},
+    showClose: true
+  };
+  (function(w, d, n, r, t, s){
     w.Stomt = w.Stomt||[];
     t = d.createElement(n);
     s = d.getElementsByTagName(n)[0];
@@ -24,10 +33,7 @@ var options = {
   Stomt.push(['addTab', options]);
   Stomt.push(['addFeed', options]);
   Stomt.push(['addCreate', options]);
- 
-  // Adjust the 'APP_ID' to your application id 
-  // you can find it here: https://www.stomt.com/YOUR_PAGE/apps
-
+}
 </script>
   {/if}
   
